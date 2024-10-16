@@ -26,16 +26,20 @@
 		"@react-aria/ssr": "3.9.4",
 		"@react-aria/visually-hidden": "3.8.12",
 		"@react-stately/data": "^3.11.7",
+		"@types/mysql": "^2.15.26",
 		"clsx": "2.1.1",
 		"framer-motion": "~11.1.1",
 		"intl-messageformat": "^10.5.0",
+		"mysql2": "^3.11.3",
+		"net": "^1.0.2",
 		"next": "14.2.4",
 		"next-themes": "^0.2.1",
 		"react": "18.3.1",
-		"react-dom": "18.3.1"
+		"react-dom": "18.3.1",
+		"tls": "^0.0.1"
 	},
 	"devDependencies": {
-		"@types/node": "20.5.7",
+		"@types/node": "^20.5.7",
 		"@types/react": "18.3.3",
 		"@types/react-dom": "18.3.0",
 		"@typescript-eslint/eslint-plugin": "7.2.0",
@@ -54,6 +58,7 @@
 		"postcss": "8.4.38",
 		"tailwind-variants": "0.1.20",
 		"tailwindcss": "3.4.3",
-		"typescript": "5.0.4"
+		"ts-node": "^10.9.2",
+		"typescript": "^5.0.4"
 	}
 }

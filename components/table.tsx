@@ -3,6 +3,7 @@ import React from "react";
 import {Table, TableHeader, TableColumn, TableBody, TableRow, TableCell, Pagination, Spinner, getKeyValue} from "@nextui-org/react";
 import { useInfiniteScroll } from "@nextui-org/use-infinite-scroll";
 import { useAsyncList } from "@react-stately/data";
+import { fetchHumidity } from "@/app/services/mysql";
 
 interface SWCharacter {
   name: string;
@@ -28,6 +29,8 @@ export default function TableComponent() {
         { signal }
       );
       let json = await res.json();
+
+      console.log(json); //debug
 
       setHasMore(json.next !== null);
 
