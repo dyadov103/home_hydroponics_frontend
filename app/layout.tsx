@@ -8,6 +8,7 @@ import { Providers } from "./providers";
 import { siteConfig } from "@/config/site";
 import { fontSans } from "@/config/fonts";
 import { Navbar } from "@/components/navbar";
+import TabComponent from "@/app/device/tabs";
 
 export const metadata: Metadata = {
   title: {
@@ -16,7 +17,7 @@ export const metadata: Metadata = {
   },
   description: siteConfig.description,
   icons: {
-    icon: "/favicon.ico",
+    icon: "plant.ico",
   },
 };
 

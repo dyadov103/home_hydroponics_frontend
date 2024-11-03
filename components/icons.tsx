@@ -35,6 +35,7 @@ export const CustomLogo: React.FC<IconSvgProps> = ({
   xmlns="http://www.w3.org/2000/svg"
   width={width || size}
   height={height || size}
+  {...props}
   fillRule="evenodd"
   strokeLinecap="round"
   strokeLinejoin="round"

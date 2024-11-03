@@ -30,7 +30,7 @@ export default function App() {
   const [devices, setDevices] = useState<humidArr[]>([]); // State for API data with humidArr type
   const [loading, setLoading] = useState(true); // State for loading status
   const [error, setError] = useState<string | null>(null); // State for error handling
-  const rowsPerPage = 4;
+  const rowsPerPage = 15;
 
   const fetchDevices = async () => {
     try {

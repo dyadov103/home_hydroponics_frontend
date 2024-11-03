@@ -1,7 +1,10 @@
 import TableComponent from "@/components/table";
+import TabComponent from "./tabs";
 
 export default function TablePage() {
   return (
-    <TableComponent />
+    <div>
+      <TabComponent />
+    </div>
   );
 }
