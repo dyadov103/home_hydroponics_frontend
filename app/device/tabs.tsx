@@ -2,7 +2,7 @@
 import TableComponent from "@/components/table";
 import RectangleWithSubdivisions from "@/components/zone_view";
 import SystemHealth from "@/components/system_health";
-import GardenHealth from "@/components/overall_health";
+import GardenOverview from "@/components/overall_health";
 import {Tabs, Tab, Card, CardBody} from "@nextui-org/react";
 
 const status = {
@@ -22,7 +22,7 @@ export default function TabComponent() {
           <Card>
             <CardBody>
                 Overall Health
-                <GardenHealth systemStatus="Healthy" gardenStatus="75%" systemColor="#17C964" gardenColor="#0072F5" />
+                <GardenOverview plantStatus="Healthy" tankLevel={0} />
                 <br></br>
                 Zone Humidity
                 <RectangleWithSubdivisions />
